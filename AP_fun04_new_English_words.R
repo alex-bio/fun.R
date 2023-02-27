@@ -27,3 +27,19 @@ word <- function() {
   ## has science gone too far
 }
 word()
+
+## larger libraries if you want
+# consonant.lib <- c("b","c","d","f","g","h","j","k","l","m","n","p","qu","r","s","t","v","w","x","y","z","th","sh", "mb","ch","ck","cr","cs","br","bs","lb","rb","ct","nd","dr","ds","wd","fl","mf","lf","fr","rf","fs","ff","sf","ft","gh","gl","ng","gn","gr","rg","gs","gw","mk","nk","rk","sk","ks","wk","lm","ln","lp","pl","sl","ls","ll","lt","wl","zl","mn","rm","ms","sm","mt","rn","sn","ns","nt","wn","pr","rp","ps","sp","pt","wp","xp","rr","rs","rt","tr","rv","vr","wr", "ss", "st", "ts", "sw","ws", "tt","tw","wt","xt","vv","zz","bb","mpt","sch","lpt","rnt","str")
+
+# vowel.lib <- c("a","e","i","o","u",
+#            "ai","ao","au",
+#            "ee","ea","ei","eo","eu",
+#            "ia","ie","io",
+#            "oa","oi","ou",
+#            "ua","ue","ui","uo")
+
+## average letters in consonant vector element
+# avg.cons <- sum(nchar(consonant.lib))/length(consonant.lib)
+## average letters in vowel vector element
+# avg.vows <- sum(nchar(vowel.lib))/length(vowel.lib)
+## these are for later reducing whatever random Poisson value we get to close to accurate length of word
